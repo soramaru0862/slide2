@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kanoto</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!--ロード画面-->
+  <section class="loading">
+    <h2 class="loading-title">
+      <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 800 500" style="enable-background: new 0 0 800 500;" xml:space="preserve">
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./img/svg/logo3.svg" width="800" height="600"
+          mask="url(#clipmask)"></image>
+        <mask id="clipmask" maskUnits="objectBoundingBox">
+          <path class="st0" d="M286.6,154.3c0,0-3.1,18.2-3.1,20.2s-7.3,66.1-8.7,75.5c-1.3,9.5-8.1,39.7-10.3,46.5c-2,6-12.4,22.7-18,25
+            c-5,2-8,1-11-1s-8-11-9.1-17.6c-1-6.3,0.1-19.4,8.1-30.4c4.2-5.8,22-25,26-29c4.7-4.7,20-16,27-21s40.3-35,45.1-58" />
+          <path class="st0" d="M279.5,230.6c0,0,14,4.9,15,13.9s0.2,16.9,0,23c-0.2,6.7-0.2,17.7,0.3,20.8c0.7,4.2,0.7,12.2,7.7,10.2
+            s19-14,22-18s13-19,15-22" />
+          <path class="st0" d="M357.5,245.5c0,0-2-6-6-6c-2,0-5,2-7,5s-6,17-6,23c0,4.1,3,9,6,7s7-9,10-16" />
+          <path class="st0" d="M360.1,241.4c0,0-4.6,25.1-4.6,30.1c0,5.1,4,17,12,13s23.3-22.4,25.1-31.2" />
+          <path class="st0" d="M392.6,257.2l-2.1,16.3c0,0,14-31,18-30s6,6,5,11s-3.4,16-3.7,19s-0.7,11.6,3,11.8c3.7,0.2,18.7-16.8,21.7-23.8
+            " />
+          <path class="st0" d="M440.6,251.6c0,0-7.2,10.1-6.1,16.8c1,6.1,5,10.1,9,10.1s13-2.8,14-10c1-7,1-13,1-14c0-4,1-7-2.4-11
+            c-2.1-2.5-9.6-5-11.6-1s-2,13,1,18s13,15,20,10s13.9-11.3,16-17" />
+          <line class="st0" x1="455.9" y1="200.6" x2="515" y2="195.8" />
+          <path class="st0" d="M495.2,174.8c0,0-9.9,59.8-11.3,68.7c-1.4,9-3,19.1-3.4,22c-1,6.7-1.1,23.9-1,26c0.2,5,2.8,14.3,7,16
+            c5,2,11-3,17-11c7-9.3,23.4-34.1,24-36" />
+          <path class="st0" d="M532.6,251.6c0,0-8.1,9.9-6.1,17.9c1,4,5,9,10,9c4,0,12-5,13-11s1.3-17.5,0-20.4c-2-4.6-5.8-7-8.9-6.3
+            s-5.4,4.9-6.1,6.7c-2.1,5.4,1.6,12.6,3,14c1,1,5.1,5.8,7,7c3,2,10.4,1.9,15,0c5-2,12.9-8.7,13.4-13.9" />
+        </mask>
+      </svg>
+    </h2>
+  </section>
+
+  <!--ヒーローヘッダー-->
+  <section id="hero" class="hero">
+    <div class="hero-wrapper">
+      <div><img alt="" id="hero_main" class="hero-main"></div>
+      <div><img alt="" id="hero_main2" class="hero-main2"></div>
+    </div>
+  </section>
+
+  <!--ヒーローヘッダーアニメーション後-->
+  <header id="header" class="header">
+    <h1 class="header-title">Kanoto</h1>
+    <nav>
+      <ul class="header-nav">
+        <li class="header-nav-item">Concept</li>
+        <li class="header-nav-item">Profile</li>
+        <li class="header-nav-item">Item</li>
+        <li class="header-nav-item">Colortherapy</li>
+        <li class="header-nav-item">Access</li>
+      </ul>
+    </nav>
+    <div class="header-concept-wrapper">
+      <p class="header-concept">日常に調和を<br><br><span>軽やかにコスチューム<br>ジュエリーを</span></p>
+    </div>
+    <div class="header-background"></div>
+  </header>
+
+  <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>
