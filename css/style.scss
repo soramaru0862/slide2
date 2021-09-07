@@ -89,6 +89,10 @@ ul > li {
       width: 50%;
       min-height: 100vh;
       overflow: hidden;
+
+      @media screen and(max-width: 599px) {
+        width: 100%;
+      }
     }
   }
 
@@ -102,6 +106,12 @@ ul > li {
     &.active {
       animation: scaleImg 4.2s ease 0s 1 alternate backwards;
     }
+  }
+}
+
+.main2 {
+  @media screen and(max-width: 599px) {
+    display: none;
   }
 }
 
@@ -151,12 +161,20 @@ ul > li {
     padding-left: 90px;
     font-family: "MyFont", serif;
     font-size: 4rem;
+
+    @media screen and(max-width: 599px) {
+      padding-left: 10px;
+    }
   }
 
   &-nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media screen and(max-width: 599px) {
+      display: none;
+    }
 
     &-item {
       z-index: 90;
@@ -172,8 +190,16 @@ ul > li {
     color: #fff;
     text-align: center;
 
+    @media screen and(max-width: 599px) {
+      font-size: 50px;
+    }
+
     & > span {
       font-size: 60px;
+
+      @media screen and(max-width: 599px) {
+        font-size: 35px;
+      }
 
       &::before {
         content: '「';
@@ -191,6 +217,12 @@ ul > li {
       z-index: 90;
       width: 50%;
       transform: translate(-50%, -50%);
+
+      @media screen and(max-width: 599px) {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+      }
     }
   }
 
